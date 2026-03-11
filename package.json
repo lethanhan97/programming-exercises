@@ -1,0 +1,9 @@
+{
+  "name": "programming-practice",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  }
+}
