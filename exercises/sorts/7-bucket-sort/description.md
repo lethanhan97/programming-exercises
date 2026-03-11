@@ -14,6 +14,8 @@ bucketIndex = floor((value - min) / (max - min) * (bucketCount - 1))
 
 This maps the minimum value to bucket 0 and the maximum value to the last bucket, with everything else spread evenly in between. The number of buckets is typically the length of the array.
 
+Note: when all elements are equal, `max - min` is 0. Handle this case — all elements can go into a single bucket (or simply be returned as-is).
+
 **Sort each bucket:** Sort the elements within each bucket using any sorting method (e.g., insertion sort works well since buckets tend to be small).
 
 **Concatenate:** Walk through the buckets in order and collect all elements back into a single array.
