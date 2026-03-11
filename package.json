@@ -3,7 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "bun test",
-    "test:watch": "bun test --watch"
+    "test": "bun test exercises",
+    "test:watch": "bun test --watch exercises"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.10"
   }
 }
