@@ -72,3 +72,26 @@ Exercises are numbered by difficulty within each category. Start from 1 and work
 | 5 | quick-sort | Pick a pivot, partition, recurse |
 | 6 | heap-sort | Build a max-heap, extract maximums |
 | 7 | bucket-sort | Distribute into buckets by range, sort each, concatenate |
+
+### 2D Arrays
+
+Practice for the muscle memory of `grid[row][col]` indexing and the classic matrix transformations.
+
+**Tier 1 — Indexing & traversal**
+
+| # | Exercise | Description |
+|---|---|---|
+| 1 | traversal | Walk a grid row-by-row, then column-by-column |
+| 2 | sum-all | Sum every element with a double loop |
+| 3 | row-and-column-sums | Return per-row sums and per-column sums |
+| 4 | find-max | Track the maximum value and its `(row, col)` |
+| 5 | diagonals | Return the main diagonal and the anti-diagonal |
+
+**Tier 2 — Transformations**
+
+| # | Exercise | Description |
+|---|---|---|
+| 6 | transpose | Transpose a square matrix in place |
+| 7 | rotate-90-clockwise | Rotate a square matrix 90° CW (new matrix, then in place) |
+| 8 | flip | Mirror a matrix horizontally or vertically |
+| 9 | set-zeroes | If a cell is zero, zero its entire row and column (mark first, mutate second) |
